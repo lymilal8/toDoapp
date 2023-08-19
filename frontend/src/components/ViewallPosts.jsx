@@ -50,11 +50,8 @@ const ViewallPosts = () => {
 
       <div className="row g-3">
         {data.map((value,index)=>{
-          return<div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-             
-            </div>
+          return <div className="col col-12 col-sm-4 col-md-4 col-lg-4 d-flex align-items-stretch">
+            <div class="card mb-3">
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">{value.title}</h5>
